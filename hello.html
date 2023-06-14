@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio src="" id="audio-source"></audio>
+    <section class="home-section">
+        <!-- carousel -->
+        <div class="carousel">
+          <img src="assets/images/tay.jpg" class="active" alt="" />
+          <img src="assets/images/valen.jpg" alt="" />
+          <img src="assets/images/cig.jpg" alt="" />
+          <img src="assets/images/ever.jpg" alt="" />
+          <img src="assets/images/tiv.jpg" alt="" />
+        </div>
+
+        <section class="music-player-section">
+            <img src="assets/images/back.png" class="back-btn icon hide" alt="" />
+            <img src="assets/images/nav.png" class="nav-btn icon hide" alt="" />
+            <h1 class="current-song-name">song 1</h1>
+            <p class="artist-name hide">Kahfi Reihan</p>
+            <img src="assets/images/cover 1.png" class="cover hide" alt="" />
+            <div class="seek-bar-container">
+              <input type="range" class="music-seek-bar" value="0" id="seekBar" />
+              <p class="current-time hide">00 : 00</p>
+              <p class="duration hide">00 : 00</p>
+            </div>
+            <div class="controls">
+              <span class="fas fa-redo"></span>
+              <div class="main">
+                <i class="fas fa-backward active"></i>
+                <i class="fas fa-play play-btn active"></i>
+                <i class="fas fa-pause pause-btn"></i>
+                <i class="fas fa-forward active"></i>
+              </div>
+              <input type="range" class="volume-slider" max="1" value="1" step="0.1" />
+              <span class="fas fa-volume-up"></span>
+            </div>
+          </section>
+          
+    <section class="playlist1">
+     <a href="index.html"> <img src="assets/images/back.png" class="back-btn icon" alt="" /></a>
+      <h1 class="title">mon chéri</h1>
+      <div class="queue active">
+        <div class="queue-cover">
+          <img src="assets/images/tay.jpg" alt="" />
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">The great war</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="assets/images/valen.jpg" alt="" />
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">valentine</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="assets/images/cig.jpg" alt="" />
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">k.</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="assets/images/ever.jpg" alt="" />
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">Coney Island</p>
+      </div>
+      
+      
+      
+    </section>
+
+    <script src="data.js"></script>
+          <script src="lan.js"></script>
+  </body>
+</html>

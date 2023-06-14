@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUSIC KHF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio src="" id="audio-source"></audio>
+    <!-- hpme section -->
+    <section class="home-section">
+      <!-- carousel -->
+      <div class="carousel">
+        <img src="assets/images/kh2.jpeg" class="active" alt="" />
+        <img src="assets/images/hed.jpg" alt="" />
+        <img src="assets/images/kh3.jpeg" alt="" />
+        <img src="assets/images/headd.jpg" alt="" />
+        <img src="assets/images/kh88.jpeg" alt="" />
+      </div>
+      <!-- playlist -->
+      <h1 class="heading">Recently played</h1>
+      <div class="playlist-group">
+        <div class="playlist-card">
+          <a href="Me.html"><img src="assets/images/tv.jpg" class="playlist-card-img" alt="" /></a>
+          <p class="playlist-card-name">Songs T.o </p>
+        </div>
+        <div class="playlist-card">
+          <a href="for.html"> <img src="assets/images/futuree.jpg" class="playlist-card-img" alt="" /></a>
+          <p class="playlist-card-name">The Future</p>
+        </div>
+        <div class="playlist-card">
+         <a href="jezzy.html"> <img src="assets/images/jazz.jpg" class="playlist-card-img" alt="" /></a>
+          <p class="playlist-card-name">Jazz</p>
+        </div>
+        <div class="playlist-card">
+          <a href="solo.html"><img src="assets/images/solo.jpg" class="playlist-card-img" alt="" /></a>
+          <p class="playlist-card-name">solo</p>
+        </div>
+        <div class="playlist-card">
+          <a href="hello.html"><img src="assets/images/mac.jpg" class="playlist-card-img" alt="" /></a>
+          <p class="playlist-card-name">mon chéri</p>
+        </div>
+      </div>
+      <h1 class="heading">Popular Albums</h1>
+      <div class="playlist-group">
+        <div class="playlist-card">
+          <a href="echoes.html"><img src="assets/images/echo.jpg" class="playlist-card-img" alt="" /></a>
+          <p class="playlist-card-name">echoes</p>
+        </div>
+        <div class="playlist-card">
+         <a href="calestial.html"><img src="assets/images/caless.jpg" class="playlist-card-img" alt="" /></a> 
+          <p class="playlist-card-name">calestial</p>
+        </div>
+        <div class="playlist-card">
+          <a href="brokenboy.html"><img src="assets/images/gitar.jpg" class="playlist-card-img" alt="" /></a>
+          <p class="playlist-card-name">Boy</p>
+        </div>
+        <div class="playlist-card">
+          <a href="tujuh.html"><img src="assets/images/fy.jpg" class="playlist-card-img" alt="" /></a>
+          <p class="playlist-card-name">7 A.M</p>
+        </div>
+        <div class="playlist-card">
+          <a href="index.html"><img src="assets/images/folklore.jpg" class="playlist-card-img" alt="" /></a>
+          <p class="playlist-card-name">folklore </p>
+        </div>
+      </div>
+      <h1 class="heading"> Artist</h1>
+      <div class="playlist-group">
+        <div class="playlist-card">
+          <img src="assets/images/k1.png" class="playlist-card-imgg" alt="" />
+          <p class="playlist-card-namee">Kahfi Reihan</p>
+        </div>
+        <div class="playlist-card">
+          <img src="assets/images/pam1.jpg" class="playlist-card-imgg" alt="" />
+          <p class="playlist-card-namee">Pamungkas</p>
+        </div>
+        <div class="playlist-card">
+          <img src="assets/images/john.jpg" class="playlist-card-imgg" alt="" />
+          <p class="playlist-card-namee">John Mayer</p>
+        </div>
+        <div class="playlist-card">
+          <img src="assets/images/theb.jpg" class="playlist-card-imgg" alt="" />
+          <p class="playlist-card-namee">The Beatles</p>
+        </div>
+        <div class="playlist-card">
+          <img src="assets/images/harry.jpg" class="playlist-card-imgg" alt="" />
+          <p class="playlist-card-namee">Harry Styles</p>
+        </div>
+      </div>
+    </section>
+
+    </section>
+
+
+    <section class="music-player-section">
+      <img src="assets/images/back.png" class="back-btn icon hide" alt="" />
+      <img src="assets/images/nav.png" class="nav-btn icon hide" alt="" />
+      <h1 class="current-song-name">song 1</h1>
+      <p class="artist-name hide">Kahfi Reihan</p>
+      <img src="assets/images/cover 1.png" class="cover hide" alt="" />
+      <div class="seek-bar-container">
+        <input type="range" class="music-seek-bar" value="0" id="seekBar" />
+        <p class="current-time hide">00 : 00</p>
+        <p class="duration hide">00 : 00</p>
+      </div>
+      <div class="controls">
+        <span class="fas fa-redo"></span>
+        <div class="main">
+          <i class="fas fa-backward active"></i>
+          <i class="fas fa-play active"></i>
+          <i class="fas fa-pause"></i>
+          <i class="fas fa-forward active"></i>
+        </div>
+        <input type="range" class="volume-slider" max="1" value="1" step="0.1" />
+        <span class="fas fa-volume-up"></span>
+      </div>
+    </section>
+
+    <section class="playlist">
+      <img src="assets/images/back.png" class="back-btn icon" alt="" />
+      <h1 class="title">Playlist</h1>
+      <div class="queue active">
+        <div class="queue-cover">
+          <img src="assets/images/cover 1.png" alt="" />
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">Only Angel</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="assets/images/cover 2.png" alt="" />
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">0.52</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="assets/images/cover 3.png" alt="" />
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">0.54</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="assets/images/cover 4.png" alt="" />
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">0.91</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="assets/images/cover 5.png" alt="" />
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">103</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="assets/images/cover 6.png" alt="" />
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">0.80</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="assets/images/cover 7.png" alt="" />
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">0.67</p>
+      </div>
+      <div class="queue">
+        <div class="queue-cover">
+          <img src="assets/images/cover 8.png" alt="" />
+          <i class="fas fa-pause"></i>
+        </div>
+        <p class="name">0.84</p>
+        
+      </div>
+      
+    </section>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
